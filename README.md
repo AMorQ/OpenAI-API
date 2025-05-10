@@ -1,6 +1,14 @@
-# OpenAI-API
+# OpenAI-API: Qualitative Data Analysis Notebook
 
 This repository provides prompting guidelines and strategies for dealing with qualitative data using OpenAI's API. It includes examples, best practices, and Jupyter Notebooks to help users effectively interact with OpenAI's language models for qualitative data analysis.
+
+This is a on process **Jupyter Notebook** for data analysis of **qualitative information**, such as opinions given in a scientifi event form.
+
+## Future Work
+
+* **Web scraping** and consultation on major **social networks** to leverage the knowledge of the context in which these opinions evolve
+* Insert these insights in the bigger **institution scenario** (relate past changes with consequences)
+* Propose a **roadmap** that aligns with the discovered environment and goals
 
 ## Table of Contents
 
@@ -9,8 +17,8 @@ This repository provides prompting guidelines and strategies for dealing with qu
 -   Setup and Installation
 -   Usage
 -   Examples
--   Contributing
--   License
+
+
 
 ## Introduction
 
@@ -74,10 +82,17 @@ Before running the notebooks, set your OpenAI API key as an environment variable
 
 ```bash
 export OPENAI_API_KEY="your-api-key-here"
+```
 
-<!-- This is a on process Jupyter Notebook for data analysis of qualitative information, such as opinions given in a scientifi event form.
+## Examples
 
-TO DO:
-- web scrapping and consultation on major social networks to leverage the knowledge of the context in which these opinions evolve
-- insert these insights in the bigger institution scenario (relate past changes with consequences)
-- propose a roadmap that alligns with the discovered environment and goals -->
+Here are some of the example tasks included in this repository:
+
+* **Summarizing Interview Transcripts:** Extract key points and themes from lengthy interview transcripts.
+* **Thematic Analysis:** Generate themes from qualitative datasets such as open-ended survey responses.
+* **Sentiment and Emotion Analysis:** Assess the sentiment or emotional tone of qualitative text data.
+* **Discourse or Narrative Analysis:** Identify narrative structures or discourse patterns within qualitative content.
+
+
+
+
